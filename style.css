@@ -20,25 +20,7 @@ html, body {
     width: 100%;
 }
 
-#main #iphone_17_pro #image{
-    height: 80%;
-    width: 100%;
-    background-color: black;
-    position: absolute;
-    z-index: -2;
-
-}
-
-img{
-    position: absolute;
-    left: 8%;
-    align-items: flex-start;
-    justify-content: center;
-    z-index: -1;
-    height: 100%;
-    width: 85%;
-    
-}
+/* navbar */
 
 #main #nav{
     font-size: 14px;
@@ -51,6 +33,31 @@ img{
     align-items: center;
     justify-content: center;
     gap: 35px;
+}
+
+/* new index */
+
+#first{
+    width: 100%;
+    height: 80%;
+}
+
+#main #iphone_17_pro #image{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: -2;
+}
+
+#iphone_17_pro img{
+    position: absolute;
+    left: 8%;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: -1;
+    height: 100%;
+    width: 85%;
 }
 
 #main #iphone_17_pro{
@@ -66,7 +73,6 @@ img{
 }
 
 #main #iphone_17_pro p{
-
     font-size: 27px;
     font-weight: 300;
     margin-bottom: 20px;
@@ -87,6 +93,230 @@ img{
     position: absolute;
     color: rgb(0,113,227);
     left: 53%;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 113,227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* new index */
+
+#second{
+    margin-top: 11px;
+    height: 80%;
+    width: 100%;
+}
+
+#iphone_air{
+    text-align: center;
+    color: #1d1d1f;
+}
+
+#iphone_air img{
+    position: absolute;
+    left: 0%;
+    z-index: -1;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+#iphone_air h1{
+    padding-top: 45px;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#iphone_air p{
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: px;
+}
+
+#main #iphone_air #learnmore button{
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    left: 42%;
+    font-size: 20px;
+    background-color: rgb(0, 113,227);
+    border: 1px solid rgb(0, 113, 227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#main #iphone_air #buy button{
+    margin-top: 20px;
+    position: absolute;
+    color: rgb(0,113,227);
+    left: 53%;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 113,227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* new index */
+
+#third{
+    margin-top: 11px;
+    height: 80%;
+    width: 100%;
+}
+
+#iphone_17{
+    text-align: center;
+    color: #1d1d1f;
+}
+
+#iphone_17 img{
+    position: absolute;
+    left: 0%;
+    z-index: -1;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+#iphone_17 h1{
+    padding-top: 45px;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#iphone_17 p{
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: px;
+}
+
+#main #iphone_17 #learnmore button{
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    left: 42%;
+    font-size: 20px;
+    background-color: rgb(0, 113,227);
+    border: 1px solid rgb(0, 113, 227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#main #iphone_17 #buy button{
+    margin-top: 20px;
+    position: absolute;
+    color: rgb(0,113,227);
+    left: 53%;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 113,227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+/* new index */
+
+#fourth{
+    display: flex;
+    margin-top: 11px;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+
+#fourth #watch {
+    height: 70%;
+    width: 50%;
+}
+
+#fourth #airpods {
+    height: 70%;
+    width: 50%;
+}
+
+#watch img{
+    position: absolute;
+    z-index: -1;
+    height: 80%;
+    width: 50%;
+}
+
+#airpods img{
+    position: absolute;
+    z-index: -1;
+    height: 80%;
+    width: 50%;
+}
+
+#watch h1{
+    padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#airpods h1{
+    padding-top: 30px;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#watch p{
+    text-align: center;
+    font-size: 29px;
+    padding: 10px;
+}
+
+#airpods p{
+    text-align: center;
+    font-size: 29px;
+}
+
+#fourth #watch #learnmore button{
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    left: 16%;
+    font-size: 20px;
+    background-color: rgb(0, 113,227);
+    border: 1px solid rgb(0, 113, 227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#fourth #airpods #om button{
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    right: 23%;
+    font-size: 20px;
+    background-color: rgb(0, 113,227);
+    border: 1px solid rgb(0, 113, 227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#main #watch #buy button{
+    margin-top: 20px;
+    position: absolute;
+    color: rgb(0,113,227);
+    left: 27%;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(0, 113,227);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#main #airpods #sansar button{
+    margin-top: 20px;
+    position: absolute;
+    color: rgb(0,113,227);
+    right: 16%;
     font-size: 20px;
     background-color: transparent;
     border: 1px solid rgb(0, 113,227);
