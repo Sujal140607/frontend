@@ -223,18 +223,18 @@ html, body {
 #fourth{
     display: flex;
     margin-top: 11px;
-    height: 100%;
+    height: 80%;
     width: 100%;
     gap: 20px;
 }
 
 #fourth #watch {
-    height: 70%;
+    height: 80%;
     width: 50%;
 }
 
 #fourth #airpods {
-    height: 70%;
+    height: 80%;
     width: 50%;
 }
 
@@ -267,13 +267,15 @@ html, body {
 
 #watch p{
     text-align: center;
-    font-size: 29px;
+    font-size: 18px;
+    font-weight: 100;
     padding: 10px;
 }
 
 #airpods p{
     text-align: center;
-    font-size: 29px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 #fourth #watch #learnmore button{
